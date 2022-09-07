@@ -1,0 +1,56 @@
+#kpisection{
+    padding: 80px 40px 40px;
+    /* height: 300px; */
+    width: 100%;
+    display: flex;
+    gap: 8px;
+}
+
+.kpi{
+    width: 100%;
+    min-width: 180px;
+    max-width: 260px;
+    border: 1px solid #e7eaec;
+    display: flex;
+    flex-direction: column;
+    background-color: #ffffff;
+    padding: 8px;
+    height: max-content;
+}
+
+.kpi .title{
+    font-size: 18px;
+    font-weight:  bold;
+    letter-spacing: 0.75px;
+}
+
+.kpi .subtitle{
+    width: fit-content;
+    color: white;
+    /* background-color: rgb(100, 100, 100); */
+}
+
+.bg-success{
+    background-color: rgb(25,135,84);
+}
+.bg-danger{
+    background-color: rgb(254, 38, 30);
+}
+.bg-primary{
+    background-color: rgb(76, 73, 250);
+}
+.bg-info{
+    background-color: rgb(13,202,240);
+}
+.bg-warning{
+    background-color: rgb(255,193,7);
+}
+
+.kpi .value{
+    font-size: 24px;
+    font-weight:  bold;
+    /* letter-spacing: 0.75px; */
+    color: rgb(0, 34, 0);
+    align-self: flex-end;
+    padding-top: 16px;
+}
